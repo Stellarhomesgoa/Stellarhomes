@@ -1,0 +1,17 @@
+my-website/
+├── index.html
+├── styles.css
+├── scripts.js
+├── images/
+├── fonts/
+└── assets/
+    ├── facebook-icon.png
+    ├── twitter-icon.png
+    ├── instagram-icon.png
+    ├── service1.jpg
+    ├── service2.jpg
+    ├── service3.jpg
+    ├── blog1.jpg
+    ├── blog2.jpg
+    ├── blog3.jpg
+    └── hero-background.jpg

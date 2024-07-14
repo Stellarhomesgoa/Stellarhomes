@@ -1,0 +1,232 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+#header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+#navbar {
+    float: right;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    height: 3px;
+    width: 25px;
+    background: #333;
+    margin: 3px 0;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #00bfae;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section Styles */
+.about {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Services Section Styles */
+.services {
+    padding: 50px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-item h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.service-item p {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+/* Blog Section Styles */
+.blog {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.blog h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-post h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.blog-post p {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 50px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #00bfae;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Section Styles */
+#footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media a img {
+    max-width: 30px;
+}
